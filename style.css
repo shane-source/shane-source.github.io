@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+:root{
+  --white:#fff;
+  --P: #c4c4c4;
+  --blue: #2414fd;
+  --bg-count: #0a0a0a;
+  --bg-full: #151515;
+  --border-top: 4px solid rgb(70,70,70);
+}
+.navbar{
+  position: absolute;
+  width: 100%;
+  top: o;
+  z-index: 2;
+  background: none;
+}
+.navbar .nav-link,
+.navbar .shaer i{
+  color: var(--bg-count);
+  font-weight: bold;
+  
+
+}
+.navbar .nav-link:hover,
+.navbar .shaer i:hover, 
+.navbar .nav-link.active{
+  color: var(--blue);
+}
+
+#Home img{
+ min-height: 95vh;
+}
+section{
+  padding: 6rem 6%;
+
+}
+.about{
+  background: lightskyblue;
+}
+.heading h4{
+  color: var(--bg-count);
+}
+#about .content i{
+  height: 90px;
+  width: 90px;
+  font-size: 27px;
+  background: white;
+  border-radius: 50%;
+  display: inline-block;
+  color: var(--bg-count);
+  line-height: 90px;
+  text-align: center;
+  transition: all 0.3s;
+}
+#about .content:hover i{
+  background-color: var(--bg-count);
+  color: var(--white);
+}
+
+.services{
+  background: lightskyblue;
+  color: var(--white);
+}
+
+
+
+.team{
+  background: lightskyblue;
+}
+.team img{
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden ;
+}
+.team .card-body{
+ position: absolute;
+ bottom: -6opx;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background: var(--white);
+ width: 100%;
+}
+
+.team .card-body h2{
+  color: var(--bg-count);
+  font-size: 20;
+}
+.contact input,
+.contact textarea{
+  background-color: none;
+}
+.contact{
+  background: lightskyblue;
+}
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: blue;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background: lightskyblue;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.reach{
+  background: lightskyblue;
+}
+
+.footer{
+  background: lightskyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media(max-width:970px){
+  html{
+    font-size: 55%;
+  }
+  .navbar .shaer i{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
